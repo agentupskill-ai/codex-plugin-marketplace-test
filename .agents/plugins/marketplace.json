@@ -1,0 +1,20 @@
+{
+  "name": "agentupskill-test",
+  "interface": {
+    "displayName": "Agent Upskill Test (throwaway)"
+  },
+  "plugins": [
+    {
+      "name": "au-test",
+      "source": {
+        "source": "local",
+        "path": "./plugins/au-test"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
