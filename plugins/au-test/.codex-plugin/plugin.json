@@ -1,6 +1,6 @@
 {
   "name": "au-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Throwaway test plugin for Agent Upskill install and update tests. Does nothing else.",
   "skills": "./skills/"
 }
